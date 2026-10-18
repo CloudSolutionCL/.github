@@ -1,63 +1,59 @@
-<div align="center">
+# CloudSolutions SpA — Servicios Tecnológicos & Infraestructura Cloud
 
-# ☁️ Cloud Solutions
-
-### Infraestructura, desarrollo y soluciones tecnológicas para empresas
-
-Ayudamos a empresas y emprendimientos a construir, publicar y mantener sus soluciones digitales mediante servicios de hosting, desarrollo web y asesoría informática.
-
-</div>
+badges: Location: Iquique, Chile | Architecture: Modular Monolith | Database: PostgreSQL 18.0+ | Backend: ASP.NET Core / .NET | Containers: Docker
 
 ---
 
-## Sobre nosotros
+### Sobre CloudSolutions SpA
 
-**Cloud Solutions** es una empresa chilena de servicios tecnológicos enfocada en acompañar a pequeñas empresas, negocios y organizaciones en sus procesos de transformación digital.
+**CloudSolutions Chile Servicios Tecnológicos SpA** es una empresa constituida en Iquique, Chile, dedicada a la provisión de infraestructura tecnológica de alto rendimiento, hosting, virtualización, inteligencia artificial, consultoría TI y desarrollo de sistemas a medida.
 
-Nuestro propósito es entregar soluciones confiables, escalables y adaptadas a las necesidades reales de cada cliente, combinando desarrollo de software, infraestructura y soporte técnico.
-
-## Nuestros servicios
-
-- **Hosting administrado:** alojamiento y supervisión de sitios y aplicaciones web.
-- **Desarrollo web:** creación de sitios corporativos, plataformas y soluciones personalizadas.
-- **Administración de dominios:** configuración y gestión técnica de dominios y servicios asociados.
-- **Infraestructura tecnológica:** implementación y administración de servidores, contenedores y respaldos.
-- **Asesoría informática:** acompañamiento en arquitectura, seguridad, procesos y adopción tecnológica.
-
-## Proyecto principal
-
-### SIGA-TI
-
-SIGA-TI es nuestra plataforma interna para centralizar y automatizar la gestión de clientes, servicios de hosting, dominios, pagos, infraestructura, respaldos y actividades operativas.
-
-El proyecto utiliza una arquitectura de **monolito modular**, diseñada para facilitar su mantenimiento y permitir que la plataforma evolucione junto con la empresa.
-
-## Tecnologías
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-## Principios de trabajo
-
-- Seguridad y protección de la información desde el diseño.
-- Soluciones simples de mantener y preparadas para crecer.
-- Automatización de procesos repetitivos.
-- Documentación y trazabilidad de las decisiones técnicas.
-- Mejora continua y trabajo colaborativo.
-
-## Repositorios
-
-En este perfil publicaremos proyectos, herramientas y documentación desarrollados por nuestro equipo. Los repositorios internos o que contengan información de clientes se mantendrán privados.
+Especializados en el diseño de arquitectura moderna, impulsamos soluciones integrales que abarcan desde la gestión automatizada de activos de TI hasta el monitoreo proactivo de servidores en tiempo real.
 
 ---
 
-<div align="center">
+### Stack Tecnológico & Ecosistema de Infraestructura
 
-**Cloud Solutions — Tecnología que acompaña el crecimiento de tu empresa.**
+#### Backend & Servicios
+- **Lenguajes & Frameworks:** C# | ASP.NET Core (.NET)
+- **Comunicación en Tiempo Real:** SignalR para notificaciones e interacciones instantáneas
+- **Seguridad & Autenticación:** Identity, SCRAM-SHA-256, OAuth 2.0 y JWT Refresh Tokens
 
-</div>
+#### Base de Datos & Motor Relacional
+- **Motor Primario:** PostgreSQL 18.0+
+- **Optimizaciones Avanzadas:** 
+  - Asynchronous I/O (AIO) para maximizar IOPS en disco
+  - Claves primarias UUIDv7 ordenadas temporalmente para reducir la fragmentación en índices B-Tree
+  - Columnas generadas almacenadas (STORED) para cálculos financieros inmutables (IVA/Subtotales)
+  - Consultas indexadas compatibles con B-Tree Skip Scans
+
+#### Virtualización & Cloud
+- **Contenerización:** Docker sobre Servidores Linux Dedicated/Host
+- **Aislamiento de Recursos:** Asignación granular de CPU (millicores), RAM (MB), PIDs y ancho de banda
+- **Control de Red:** Redes aisladas por cliente y comunicación vía mTLS (Puerto 2376) / Túneles SSH
+
+---
+
+### Proyectos & Soluciones Principales
+
+#### SIGA-TI (Sistema de Gestión de Activos TI)
+Plataforma SaaS integral bajo arquitectura de **Monolito Modular** diseñada para centralizar:
+- **Gestión de Inventario TI:** Hardware, software, licencias y dispositivos de red con trazabilidad de mantenimiento.
+- **Suscripciones & Facturación:** Motor de facturación recurrente con integración DTE (SII Chile: Facturas, Boletas, Notas de Crédito/Débito) e integración con pasarelas de pago (Webpay, MercadoPago, Stripe).
+- **Proyectos Ágiles:** Módulo Scrum/Kanban integrado con gestión de sprints, historias de usuario y tareas.
+
+#### HostGuard
+Sistema de monitoreo proactivo de alta disponibilidad que realiza seguimiento continuo a la latencia HTTP, certificados SSL y disponibilidad (uptime) de infraestructuras críticas.
+
+---
+
+### Contacto & Ubicación Corporativa
+
+- **Razón Social:** CloudSolutions Chile Servicios Tecnológicos SpA
+- **Ubicación:** Iquique, Región de Tarapacá, Chile
+- **Especialidades:** Cloud Computing, Hosting Dedicado, Desarrollo de Sistemas & Monitoreo TI
+
+---
+
+© 2026 CloudSolutions SpA. Todos los derechos reservados. | Propiedad Intelectual Corporativa
+
