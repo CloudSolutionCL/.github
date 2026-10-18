@@ -1,11 +1,11 @@
 # CloudSolutions SpA — Servicios Tecnológicos & Infraestructura Cloud
 
 <p align="center">
-  ![Ubicación](https://img.shields.io/badge/Ubicaci%C3%B3n-Iquique%2C%20Chile-0052CC?style=for-the-badge&logo=googlemaps&logoColor=white)
-  ![Arquitectura](https://img.shields.io/badge/Arquitectura-Monolito%20Modular-8A2BE2?style=for-the-badge)
-  ![Backend](https://img.shields.io/badge/Backend-ASP.NET%20Core%20%2F%20.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-  ![Base de Datos](https://img.shields.io/badge/Base_de_Datos-PostgreSQL%2018.0%2B-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![Infraestructura](https://img.shields.io/badge/Infraestructura-Docker%20%2F%20Linux-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+  <img src="https://img.shields.io/badge/Ubicaci%C3%B3n-Iquique%2C%20Chile-0052CC?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Ubicación" />
+  <img src="https://img.shields.io/badge/Arquitectura-Monolito%20Modular-8A2BE2?style=for-the-badge" alt="Arquitectura" />
+  <img src="https://img.shields.io/badge/Backend-ASP.NET%20Core%20%2F%20.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Backend" />
+  <img src="https://img.shields.io/badge/Base_de_Datos-PostgreSQL%2018.0%2B-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="Base de Datos" />
+  <img src="https://img.shields.io/badge/Infraestructura-Docker%20%2F%20Linux-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Infraestructura" />
 </p>
 
 ---
@@ -31,7 +31,7 @@ Especializados en el diseño de arquitectura moderna, impulsamos soluciones inte
   - Asynchronous I/O (AIO) para maximizar IOPS en disco
   - Claves primarias UUIDv7 ordenadas temporalmente para reducir la fragmentación en índices B-Tree
   - Columnas generadas almacenadas (STORED) para cálculos financieros inmutables (IVA/Subtotales)
-  - Consultas indexadas compatibles con B-Tree Skip Scans
+  - Consultas indexadas compatibles with B-Tree Skip Scans
 
 #### Virtualización & Cloud
 - **Contenerización:** Docker sobre Servidores Linux Dedicated/Host
@@ -51,6 +51,5 @@ En **CloudSolutions SpA** nos especializamos en el diseño, desarrollo y desplie
 - **Consultoría Tecnológica & Integración Tributaria/Pasarelas:** Servicios de arquitectura de software, integración con pasarelas de pago y cumplimiento de facturación electrónica DTE (SII Chile).
 
 ---
-
 
 © 2026 CloudSolutions SpA. Todos los derechos reservados. | Propiedad Intelectual Corporativa
